@@ -1,0 +1,2 @@
+1. num1 and num2 are strings and not numbers so they are concatenated instead of properly added. Thus 1 + 2 will output '12' instead of 3.
+2. I would fix it by type converting num1 and num2 to numbers when result is initialized.
